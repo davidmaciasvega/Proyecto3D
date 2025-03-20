@@ -72,3 +72,71 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+
+# Archivos y carpetas de Unity que deben ignorarse
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[AssetStoreTools]/
+
+# Archivos de Unity específicos del usuario
+*.swp
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Archivos de configuración de Rider y VS Code
+.idea/
+.vscode/
+
+# Archivos de compilación de Mono, VS y Rider
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.vscode
+*.tmproj
+*.pidb
+*.booproj
+*.svd
+*.userprefs
+
+# Archivos de sistema que no deben rastrearse
+.DS_Store
+Thumbs.db
+
+# Cache de paquetes de Unity
+Packages/com.unity.package-manager/
+Packages/*/package.json.meta
+
+# Ignorar archivos de compilación específicos de plataformas
+*.apk
+*.aab
+*.ipa
+*.exe
+*.app
+*.xcodeproj/
+*.xcworkspace/
+
+# Ignorar carpetas de control de versiones locales
+localSettings.json
+
+
+
+git lfs track "*.fbx"
+git lfs track "*.png"
+git lfs track "*.jpg"
+
